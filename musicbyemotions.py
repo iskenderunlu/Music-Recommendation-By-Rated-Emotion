@@ -43,7 +43,7 @@ def ratingParser(line):
 
 def musicParser(line):
     """
-    Parses a music record in Musicers format musicId;;musicTitle .
+    Parses a music record in Music players format musicId;;musicTitle .
     """
     fields = line.strip().split(";;")
     return int(fields[0]), fields[1]
