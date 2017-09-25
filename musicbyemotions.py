@@ -57,7 +57,7 @@ if __name__ == "__main__":
 
     # set up environment
     conf = SparkConf() \
-      .setAppName("Musicers") \
+      .setAppName("Music Player") \
       .set("spark.executor.memory", "2g")
     sc = SparkContext(conf=conf)
 
